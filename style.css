@@ -1,0 +1,671 @@
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-logo-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-logo-icon h2 {
+    font-family: Space Grotesk;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    font-family: Space Grotesk;
+    font-size: 20px;
+}
+
+nav button {
+    border-radius: 14px;
+    border: 1px solid black;
+    width: 231px;
+    height: 68px;
+    font-size: 20px;
+}
+
+.digital {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.left h1 {
+    font-family: Space Grotesk;
+    font-size: 60px;
+}
+
+.left h4 {
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.left button {
+    width: 264px;
+    height: 68px;
+    border-radius: 14px;
+    background-color: black;
+    color: white;
+    font-family: Space Grotesk;
+    font-size: 20px;
+}
+
+.logotypes ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    gap: 10px;
+}
+
+/* services */
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 200px;
+}
+
+.heading h2 {
+    font-family: Space Grotesk;
+    font-size: 40px;
+    background-color: rgba(185, 255, 102, 1);
+    border-radius: 7px;
+    font-weight: 500;
+}
+
+.heading h6 {
+    font-family: Space Grotesk;
+    font-size: 18px;
+    border-radius: 7px;
+    font-weight: 400;
+}
+
+.sub-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.sub-heading1,
+.sub-heading2,
+.sub-heading3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.free-proposal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.make-things {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(243, 243, 243, 1);
+    border-radius: 45px;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin: 60px 0;
+
+}
+
+.text-button h3 {
+    font-family: Space Grotesk;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.text-button p {
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.text-button button {
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    width: 288px;
+    height: 68px;
+    border-radius: 14px;
+    color: white;
+    background-color: black;
+}
+
+.case-studies {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.case-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+
+.case-heading h2 {
+    font-family: Space Grotesk;
+    font-size: 40px;
+    font-weight: 500;
+    border-radius: 7px;
+    background-color: rgba(185, 255, 102, 1);
+}
+
+.case-heading h6 {
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+
+.case-sub-heading {
+    border-radius: 45px;
+    background-color: black;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.learn-more {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px;
+    background-color: black;
+    gap: 50px;
+}
+
+.learn-more p {
+    font-family: Space Grotesk;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+}
+
+.learn-more h6 {
+    font-family: Space Grotesk;
+    font-size: 20px;
+    color: rgba(185, 255, 102, 1);
+    font-weight: 400;
+}
+
+.learn-more hr {
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.working-process {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.working-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.working-heading h2 {
+    font-family: Space Grotesk;
+    font-size: 40px;
+    font-weight: 500;
+    border-radius: 7px;
+    background-color: rgba(185, 255, 102, 1);
+}
+
+.working-heading h6 {
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+
+.working-sub-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.working-sub-heading h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.consultation,
+.research,
+.implementation,
+.monitoring,
+.reporting,
+.continual {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+    border: 1px solid black;
+    border-radius: 45px;
+    box-shadow: 4px 4px 4px black;
+    background-color: rgba(185, 255, 102, 1);
+    width: 100%;
+    height: 279px;
+}
+
+.research,
+.implementation,
+.monitoring,
+.reporting,
+.continual {
+    background-color: rgba(243, 243, 243, 1);
+    box-shadow: 4px 4px 4px black;
+    height: 159px;
+    width: 1234px;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.team-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.team-heading h2 {
+    font-family: Space Grotesk;
+    font-size: 40px;
+    font-weight: 500;
+    background-color: rgba(185, 255, 102, 1);
+}
+
+.team-heading h6 {
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.team-sub-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.team-sub-heading1,
+.team-sub-heading2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.see-all-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 0 20px 0;
+}
+
+.see-all-button button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 14px;
+    background-color: black;
+    color: white;
+    width: 269px;
+    height: 68px;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.testi-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+
+.testi-heading h2 {
+    font-family: Space Grotesk;
+    font-size: 40px;
+    font-weight: 500;
+    background-color: rgba(185, 255, 102, 1);
+}
+
+.testi-heading h6 {
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.testi-sub-heading img {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+
+.contact-heading h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Space Grotesk;
+    font-size: 40px;
+    font-weight: 500;
+    background-color: rgba(185, 255, 102, 1);
+}
+
+.contact-heading h6 {
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact-sub-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.message-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 250px;
+}
+
+.left-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+    font-family: Space Grotesk;
+    font-size: 18px;
+}
+
+.form1 form {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.form2 input {
+    display: flex;
+    gap: 40px;
+    height: 59px;
+    width: 556px;
+    border-radius: 14px;
+    border: 1px solid black;
+}
+
+.left-form button {
+    height: 68px;
+    width: 556px;
+    border-radius: 14px;
+    padding: 20px 35px 20px 35px;
+    background-color: black;
+    color: white;
+    font-family: Space Grotesk;
+    font-size: 20px;
+}
+
+
+.right-image img {
+    padding-left: 30px;
+}
+
+
+
+.footer-div {
+    background-color: black;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-decoration: underline;
+}
+
+.logo-icon h2 {
+    font-family: Space Grotesk;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
+
+.logo-icon img {
+    border-color: white;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 154px;
+    padding-right: 20px;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-left button {
+    height: 26px;
+    width: 126px;
+    border-radius: 7px;
+    background-color: rgba(185, 255, 102, 1);
+    color: black;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    padding: 0 7px 0 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-left h5 {
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+.some-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 184px;
+    border-radius: 14px;
+}
+
+.footer-right form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px 0 40px;
+    border-radius: 14px;
+    gap: 50px;
+}
+
+.footer-right form input {
+    height: 67px;
+    width: 285px;
+    border-radius: 14px;
+    border: 1px solid white;
+    background-color: rgb(231, 226, 226);
+    color: white;
+    padding-left: 25px;
+
+}
+
+.footer-right button {
+    height: 67px;
+    width: 285px;
+    border-radius: 14px;
+    border: none;
+    background-color: rgba(185, 255, 102, 1);
+    color: black;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.footer-privacy {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-privacy h6 {
+    color: white;
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+.footer-privacy a {
+    text-decoration: underline;
+    color: white;
+}
