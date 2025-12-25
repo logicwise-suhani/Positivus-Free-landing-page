@@ -361,14 +361,52 @@ nav button {
     gap: 40px;
 }
 
-.team-sub-heading1,
+.teams-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #ffffff;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #F3F3F3;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+    width: 23%;
+    box-shadow: 4px 4px 4px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.member-name-picture-link {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 40px;
+}
+
+
+     .member-name-picture-link a img{
+        display: flex;
+        /* justify-content: space-between; */
+        gap: 40px;
+        background-color: #000000;
+        border-radius: 50%;
+    }
+
+/* .team-sub-heading1,
 .team-sub-heading2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 40px;
-}
+} */
 
 .see-all-button {
     display: flex;
