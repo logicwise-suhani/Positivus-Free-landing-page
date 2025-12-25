@@ -433,7 +433,7 @@
         gap: 40px;
     }
 
-     .member-name-picture-link a img{
+    .member-name-picture-link a img {
         display: flex;
         /* justify-content: space-between; */
         gap: 40px;

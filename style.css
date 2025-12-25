@@ -391,13 +391,13 @@ nav button {
 }
 
 
-     .member-name-picture-link a img{
-        display: flex;
-        /* justify-content: space-between; */
-        gap: 40px;
-        background-color: #000000;
-        border-radius: 50%;
-    }
+.member-name-picture-link a img {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 40px;
+    background-color: #000000;
+    border-radius: 50%;
+}
 
 /* .team-sub-heading1,
 .team-sub-heading2 {
